@@ -1,4 +1,4 @@
-# SQL_DFIR_Queries
+# DFIR_SQL_Queries
 A collection of small queries I created during my investigations. I hope they help you as they did with me.
 
 ## Why do we need custom queries when we have our commercial forensic software? 
