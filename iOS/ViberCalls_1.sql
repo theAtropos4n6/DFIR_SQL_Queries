@@ -16,8 +16,8 @@ Its only purpose is to save you some time. Enjoy!
 SELECT
 datetime(ZRECENT.ZDATE+ 978307200,'unixepoch','localtime') AS 'Date of Event (Localtime)',
 datetime(ZRECENT.ZDATE+ 978307200,'unixepoch') AS 'Date of Event (UTC+00:00)',
-ZPHONENUMBER.ZCANONIZEDPHONENUM AS 'Αριθμός Τηλεφώνου',
-ZMEMBER.ZDISPLAYFULLNAME AS 'Phone Number',
+ZPHONENUMBER.ZCANONIZEDPHONENUM AS 'Phone Number',
+ZMEMBER.ZDISPLAYFULLNAME AS 'Full Name',
 ZRECENT.ZDURATION AS 'Duration (in Seconds)',
 CASE
 WHEN ZRECENT.ZCALLTYPE = 'missed' THEN 'Missed Phone Call'
